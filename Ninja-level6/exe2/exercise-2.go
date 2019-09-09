@@ -18,7 +18,7 @@ func main() {
 	fmt.Println(n1)
 
 	a2 := []int{1,2,3,4,5,6,7,8}
-	n2 := foo(a2...)
+	n2 := bar(a2)
 	fmt.Println(n2)
 }
 
